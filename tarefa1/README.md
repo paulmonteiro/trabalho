@@ -1,1 +1,0 @@
-Objectivo desta tarefa: 
