@@ -13,4 +13,4 @@ The passwords that pass the criteria should be displayed on the screen and all o
 Example, with the following input:
 ACd1234@1,a F1#,2w1E*,2Wz3345
 We should obtain the following output:
-ACd1234@1
+ACd1234@1 
