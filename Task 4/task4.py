@@ -56,8 +56,7 @@ for i in range(0,len(data)) :
                 compatibles.append(data[j]['name'])
                 # insert a space between the elements, for printing
                 compatibles.append(' ')
-        if (color2 == color1):
-            already_considered.append(data[j]['name'])
+        already_considered.append(data[j]['name'])
 # print the compatible groups list:
 for element in compatibles :
     print(element, end='')
