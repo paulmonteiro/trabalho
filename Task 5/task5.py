@@ -28,7 +28,9 @@ while True:
             del element[0]
 
     print(ordered_lists)
+    # clear list_of_items for the next iteration
     list_of_items = []
+    # check if an element of the list of lists (ordered_lists) has run out of elements, this is the stop condition
     for j,element in enumerate(ordered_lists):
         if len(element) == 0:
             print(f'\nNo more items in element {j}.')
