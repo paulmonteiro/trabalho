@@ -1,5 +1,11 @@
 ordered_lists = [[4,10,15,24,26], [0,9,12,20], [5,18,22,30]]
 
+print('\n')
+print("Determine the smallest range of integers that is common to all lists:")
+print("Ordered lists of positive integers:")
+print(ordered_lists)
+print('\n')
+
 list_of_items=[]
 shortest_interval = []
 i = 0
@@ -33,7 +39,7 @@ while True:
     # check if an element of the list of lists (ordered_lists) has run out of elements, this is the stop condition
     for j,element in enumerate(ordered_lists):
         if len(element) == 0:
-            print(f'\nNo more items in element {j}.')
+            print(f'\nNo more items in element {j} , stop condition reached.')
             print('\n')
             print(f'The shortest interval is: {shortest_interval}')
             exit(0)
